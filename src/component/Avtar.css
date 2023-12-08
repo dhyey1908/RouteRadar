@@ -1,0 +1,18 @@
+.profile-picture {
+    color: black;
+    position: absolute;
+    top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    z-index: 100;   
+    left: 55px;
+}
+
+.avatar{
+    padding: 15px;
+}
+
+span{
+    font-size: 30px;
+    font-weight: 600;
+}

@@ -1,0 +1,93 @@
+form {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 20px 20px 20px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+div.containers {
+  padding: 60px 20px 20px 20px;
+  width: 80%;
+  height: fit-content;
+  text-align: left;
+  background-color: #f5f5f5;
+  position: absolute;
+  left: 250px;
+  top: 110px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.App {
+  position: relative;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input {
+  width: 98%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  align-items: center;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+button.save {
+  margin-top: 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+  .containers {
+    max-width: 75%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .containers {
+    max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .containers {
+    max-width: 60%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .containers {
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .containers {
+    max-width: 40%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .containers {
+    max-width: 30%;
+  }
+}
